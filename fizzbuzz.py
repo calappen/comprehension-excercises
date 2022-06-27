@@ -5,3 +5,5 @@ for i in range(101):
         print("Fizz")
     elif i % 5 == 0 and not i % 3 == 0:
         print("Buzz")
+    else:
+        print(i)
